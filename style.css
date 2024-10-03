@@ -1,0 +1,93 @@
+body {
+  background-color: cornflowerblue;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body.body-home {
+  background-color: cornflowerblue;
+}
+body.body-about {
+  background-color: chartreuse;
+}
+body.body-portfolio {
+  background-color: peru;
+}
+
+body > header {
+  /* color: white; */
+  background-color: darkred;
+  height: 4em;
+  display: flex;
+}
+
+body > header > span > a {
+  color: white;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+main {
+  margin: 0;
+  padding: 2em;
+}
+.header-home {
+  /* background-color: purple; */
+  height: 3em;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border-style: solid;
+  border-width: 2px;
+  margin: 0.5em;
+}
+
+section {
+  background-color: burlywood;
+  margin: 1em;
+  padding: 1em;
+}
+
+img {
+  width: 100%;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.main-menu > .header-item > h3 {
+    margin: auto;
+    /* text-align: center; */
+    display: inline-table;
+    /* vertical-align: middle; */
+    background-color: chartreuse;
+}
+.header-item {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0.5em;
+  background-color: blue;
+  
+ /* align-self: flex-start; */
+ /* align-items: end; */
+ 
+
+ 
+}
+.header-name {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 0%;
+}
