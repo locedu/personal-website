@@ -1,8 +1,9 @@
 body {
-  background-color: cornflowerblue;
+  background-color: rgb(3, 66, 154);
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* body.body-home {
@@ -17,49 +18,96 @@ body.body-portfolio {
 
 main {
   width: 100%;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
 }
+/* main > h1 {
+  background-color: orange;
+  margin: 0 auto;
+} */
+ main > header {
+  position: sticky;
+  top: 0;
+  background-color: purple;
+ }
 /* HEADER */
-main > header {
+.header-1 {
+  background-image: url(img/space-background.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   /* color: white; */
-  background-color: darkred;
+  background-color: rgb(18, 4, 98);
   display: flex;
   /* border-style: solid; */
   /* border-width: 3px; */
-  width: 100%;
-  height: 4em;
+  /* width: 100%; */
+  /* height: 4em; */
+  padding: 0 0 0 1em  ;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: stretch;
+  border-style: solid;
+  border-width: 0 0 0.5em 0;
+  border-color: rgb(3, 3, 44);
 }
 
+.header-2 > h1 {
+  background-color: aliceblue;
+display: contents;
+  /* padding: .25em ; */
+}
+
+
 #header-title {
-  background-color: blue;
+  /* background-color: blue; */
+  color: white;
   display: inline-block;
-  box-sizing: border-box;
+  box-sizing: border-box; */
   padding: 0 1em 0 1em;
   align-content: center;
 }
 
+
 nav {
-  background-color: aqua;
-  box-sizing: border-box;
+  /* background-color: orange; */
+  /* box-sizing: border-box; */
+
+  width: 300px;
   display: flex;
-  align-items: stretch;
+  /* align-items: stretch; */
   justify-content: space-between;
-  padding: 0 0 0 0;
+  padding: 0 2em 0 0;
+  color: white;
 }
 
 nav > * {
-  border-style: solid;
-  border-width: 1px;
-  width: 100px;
-  text-align: center;
-  box-sizing: border-box;
-  padding: 1em;
+  /* width: 100px; */
+  /* text-align: center; */
+  /* box-sizing: border-box; */
+  /* padding: 1em; */
   align-content: center;
+  /* align-self:stretch; */
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+}
+
+nav > a {
+  /* display:inline-table; */
+  width: auto;
+  text-decoration: none !important;
+}
+
+nav > a:hover {
+  background-color: orange;
+}
+
+.selected {
+  background-color: blue;
 }
 
 .header-home {
