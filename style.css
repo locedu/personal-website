@@ -1,3 +1,14 @@
+@media only screen and (max-width: 500px) {
+  #main-header {
+    flex-direction: column;
+  }
+  nav {
+    flex-flow: column;
+
+  }
+
+}
+
 body {
   background-color: rgb(3, 66, 154);
   margin: 0;
@@ -20,35 +31,22 @@ main {
   position: sticky;
   top: 0;
   background-color: purple;
- }
-/* HEADER */
-.header-1 {
   background-image: url(img/space-background.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* color: white; */
   background-color: rgb(18, 4, 98);
   display: flex;
-  /* border-style: solid; */
-  /* border-width: 3px; */
-  /* width: 100%; */
-  /* height: 4em; */
-  padding: 0 0 0 1em  ;
-  flex-flow: row nowrap;
+  padding: 0 1em 0 1em  ;
+  /* flex-flow: row; */
   justify-content: space-between;
   align-items: stretch;
   border-style: solid;
   border-width: 0 0 0.5em 0;
   border-color: rgb(3, 3, 44);
-}
+ }
 
-.header-2 > h1 {
-  background-color: aliceblue;
-display: contents;
-  /* padding: .25em ; */
-}
 
 
 #header-title {
@@ -101,12 +99,6 @@ nav > a:hover {
   background-color: rgb(235, 24, 24);
 }
 
-.header-home {
-  /* background-color: purple; */
-  height: 3em;
-  margin: 0;
-  padding: 0;
-}
 img {
   border-style: solid;
   border-width: 2px;
