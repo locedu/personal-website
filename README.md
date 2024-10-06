@@ -4,4 +4,4 @@
 
 ### 2409 FTB ET WEB PT
 
-A personal site with a brief bio.
+A personal site with a brief bio + portfolio.
